@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="APP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_ImageView" xml:space="preserve">
+    <value>图形图像浏览器支持以下几种类型图像文件的浏览：
+	1)Windows位图(*.bmp)
+	2)TGA图像(*.tga)
+	3)Photoshop文档(*.psd)
+1、浏览文件
+文件载入后，状态栏会显示文件类型、图像尺寸、文件大小等信息，图像窗口显示整张图像，通过滑动鼠标滚轮可放大、缩小图像，也可通过点击菜单项“视图”——“放大”和“缩小”两个菜单项来进行，当图像无法完整的显示在图像窗口时，拖动图像窗口的横向或纵向滚动条可平移图像。
+2、另存文件
+打开菜单项“文件”——“另存为”可直接保存文件，默认保存格式为该文件在PCK包内的原始格式，也可以另存为JPG、PBG、GIF三种格式格式。
+3、调整背景颜色
+如果所浏览的图像含有透明像素，则图片框的背景颜色会显示出来，此时打开菜单项“视图”——“背景颜色”，即可选择切换自己需要的颜色。</value>
+  </data>
+  <data name="help_Main" xml:space="preserve">
+    <value>本工具用于演示PCK格式的游戏资源文件的解压缩功能，支持部分格式为PCK国产老游戏的资源文件，同时还引入了第三方类库FreeImage和NAudio，实现图像和声音浏览功能。
+
+目前支持的游戏有：
+1、《大秦悍将》
+另外基于与上述相同或相近版本的游戏引擎的游戏也可解压，请自行尝试。
+
+【基本操作】
+1、打开PCK文件：
+点击“打开”按钮，按照操作提示打开PCK文件，选定文件后，开始解析包文件内部文件结构，稍等2-3秒即可显示处理结果。本工具支持拖拽方式打开文件，将PCK文件拖入资源包文件列表即可打开。如果显示“支持的格式，可以解压！(共有xxx个文件)”则表示读取成功，如果显示“未知的支持的格式，不可以解压！”则表示读取失败。
+2、浏览包内文件：
+本工具目前支持以下几种类型的文件浏览：
+　1)文本类
+　 ①TXT文本文件(*.txt)
+　 ②特效配置文件(*.gfx)
+　 ③模型配置文件(*.mod)
+　 ④着色器文件(*.sdr)
+　 ⑤资源配置文件(*.res)
+　2)图形图像类
+　 ①Windows位图(*.bmp) 
+　 ②TGA图像(*.tga) 
+　 ③Photoshop文档(*.psd)
+　3)音频类
+　 ①WAV音频(*.wav)
+　 ②MP3音频(*.mp3)
+在文件列表中双击以上支持的文件即可打开资源浏览窗口浏览，具体操作方法详见资源浏览窗口的帮助文本。
+3、解压单独文件：
+载入PCK文件成功后，选中文件列表上的某个文件项目，点击“解压选中”按钮即可进行单独文件的解压，选定解压路径后，点击“保存”按钮即可完成文件单独解压，待解压完成后将询问是否打开解压文件夹。如果是不支持浏览的文件，也可以在随之弹出的询问是否解压对话框来进入单独解压流程。
+4、解压全部文件
+载入PCK文件成功后，解压路径默认设置为PCK文件所在路径，也可以通过点击“浏览…”按钮自行决定解压路径，选定好解压路径后，点击“解压全部”按钮即可解压整个PCK文件，待解压完成后也将询问是否打开解压文件夹。
+
+【关于解压错误码】
+PCK文件压缩算法为Zlib，本工具引入了Zlib官方DLL插件进行解压，官方对解压API的有关错误的返回值描述如下：
+1、Z_STREAM_ERROR(错误码:-2)
+表示文件流异常。
+2、Z_DATA_ERROR(错误码:-3)
+表示被解压的数据有错误。所谓的数据错误可能是非Zlib数据、数据损坏、校验不正确等客观因素造成的。
+3、Z_MEM_ERROR(错误码:-4)
+表示内存不足。
+5、Z_BUF_ERROR(错误码:5)
+表示分配的缓存区大小不足。
+6、Z_VERSION_ERROR(错误码:-6）
+表示被解压的数据与Zlib版本不兼容。
+
+【待解决问题】
+1、游戏《大秦悍将》的PCK文件有部分文件解压报错显示数据损坏，后对PCK文件进行Hex数据分析，按照目录表所指引的文件偏移和大小将问题文件的压缩数据拷贝出来后发现：问题文件的数据存在多个Zlib压缩头部标识0x78、0x01，推测可能是游戏在安装更新时，文件被补丁过导致，但按照Zlib压缩头部标识分段尝试手动解压依然无法解决，希望技术佬给与指导。其他游戏没有报错，均能正常、完整的解压。
+2、TGA及带有透明像素的图片保存成其他格式后出现像素异常的问题，可能是FreeImage引入有问题，原因不明，建议将TGA解压后在转换。
+
+【更新日志】
+--------------------------------------------------
+2024.11.18 ——V 1.1.0
+1、项目更名为《PCK Viewer》。
+2、更换了Zlib解压库，改用zlib.dll提供的API来执行解压，同时移除了DotNetZip类库。
+3、优化了PCK文件目录区解析流程。
+4、新增文件浏览功能，支持浏览文本、图像和音频文件。
+
+--------------------------------------------------
+2024.10.30 ——V 1.0.0
+1、PCK解压算法讨论帖发布。
+2、初代图形界面开发完成。
+
+--------------------------------------------------
+2024.10.27 ——V 0.5.0
+1、PCK解压算法研究完成，关键代码完成编写，进入立项阶段。
+
+【郑重声明】
+1、本工具提供的所有功能仅限个人学习研究使用，通过本工具所获得的游戏资源文件之版权归相关公司所有，严禁将所获得的游戏资源文件用于其他用途，工具设计者概不承担因而造成的一切后果。
+2、本源码遵循Creative Commons Attribution - NonCommercial许可协议，你可以在保留源码署名并保证不用于商业用途的前提下自由的使用、分发、修改本源码，但坚决不允许用于商业用途。
+
+【软件源码】
+https://github.com/xingshen60771/PCKViewer</value>
+  </data>
+  <data name="help_SoundView" xml:space="preserve">
+    <value>声音播放器支持以下几种类型图像文件的浏览：
+	1)WAV音频(*.wav)
+	2)MP3音频(*.mp3)
+1、试听声音
+声音文件载入后，状态栏会显示声音文件类型、音频时长、文件大小等信息，点击播放、暂停按钮可控制声音播放、暂停欲停止，在播放状态下拖动进度滑块可跳转播放。
+2、另存文件
+打开菜单项“文件”——“另存为”可直接保存文件，目前对于声音文件仅支持保存为该文件在PCK包内的原始格式。</value>
+  </data>
+  <data name="help_TextView" xml:space="preserve">
+    <value>文本浏览器支持以下几种类型文本文件的浏览：
+	1)TXT文本文件(*.txt) 
+	2)特效配置文件(*.gfx)
+	3)模型配置文件(*.mod)
+	4)着色器文件(*.sdr)
+	5)资源配置文件(*.res)
+1、浏览文件
+文件载入后，状态栏会显示文件类型、文本行数、文件大小等信息，文本框显示的文本就是文本内容。
+2、另存文件
+打开菜单项“文件”——“另存为”可直接保存文件，默认保存格式为该文件在PCK包内的原始格式，也可以另存为TXT格式。
+2、调整字体大小
+打开菜单项“视图”——“字体大小”，根据自己的阅读习惯来选择小、常规、大和特大四种大小的字体。
+3、启用禁用护眼模式
+为避免视觉疲劳，浏览器默认开启护眼模式，护眼模式的文本框背景颜色为市面上常用的橄榄绿颜色，可有效缓解眼疲劳，如需关闭，点击菜单项“视图”——“护眼模式”，此时文本框背景颜色就会恢复为常规颜色。</value>
+  </data>
+</root>
