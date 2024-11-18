@@ -135,7 +135,7 @@ namespace PCKViewer
                 // 列出三种图像到文本型数组
                 string[] imageType = { "Windows位图", "TGA图像", "Photoshop文档" };
 
-                // 载入TGA图像并转为Bitmap数据，然后置状态栏第一栏位为文本类型
+                // 按图像格式载入图像并转为Bitmap数据，然后置状态栏第一栏位为文本类型
                 switch (Path.GetExtension(filePath))
                 {
                     case ".bmp":
@@ -266,7 +266,7 @@ namespace PCKViewer
             // 缩放因子为10，图像最多放大三倍，超出的直接return
             if (pictureBox.Size.Width > imgorginWidth * 3 | pictureBox.Size.Height > imgorginHeight * 3)
             {
-                ;
+                return;
             }
             else
             {

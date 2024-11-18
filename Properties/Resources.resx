@@ -200,7 +200,7 @@ PCK文件压缩算法为Zlib，本工具引入了Zlib官方DLL插件进行解压
 
 【郑重声明】
 1、本工具提供的所有功能仅限个人学习研究使用，通过本工具所获得的游戏资源文件之版权归相关公司所有，严禁将所获得的游戏资源文件用于其他用途，工具设计者概不承担因而造成的一切后果。
-2、本源码遵循Creative Commons Attribution - NonCommercial许可协议，你可以在保留源码署名并保证不用于商业用途的前提下自由的使用、分发、修改本源码，但坚决不允许用于商业用途。
+2、软件遵循Creative Commons Attribution - NonCommercial许可协议，禁止用于商业用途。  
 
 【软件源码】
 https://github.com/xingshen60771/PCKViewer</value>
