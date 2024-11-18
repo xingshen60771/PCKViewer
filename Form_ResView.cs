@@ -263,7 +263,7 @@ namespace PCKViewer
         /// </summary>
         private void ZoomIn()
         {
-            // 缩放因子为10，图像最多放大三倍，超出的直接return
+            // 缩放因子为10，图像最多放大三倍，超出的直接return 
             if (pictureBox.Size.Width > imgorginWidth * 3 | pictureBox.Size.Height > imgorginHeight * 3)
             {
                 return;
