@@ -36,7 +36,8 @@
 1、PCK解压算法研究完成，关键代码完成编写，进入立项阶段。  
 
 ### 如何编译  
-本软件使用了Tuple多元List，因此依赖于.NET Framework V4.5运行，原则上Visual Studio 2015就可以编译，但是本人是在Visual Studio 2022中编译的，因此建议在Visual Studio 2022中编译。  
+1、本软件使用了Tuple多元List，因此依赖于.NET Framework V4.5运行，原则上Visual Studio 2015就可以编译，但是本人是在Visual Studio 2022中编译的，因此建议在Visual Studio 2022中编译。  
+2、编译后，无论是否在release状态下，务必把zlib1.dll和FreeImage.dll拷贝到程序运行文件夹，否则程序无法正常运行。   
 
 ### 关于解压错误码
 PCK文件压缩算法为Zlib，本工具引入了Zlib官方DLL插件进行解压，官方对解压API的有关错误的返回值描述如下：   
